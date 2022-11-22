@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gainsboro;
+    }
+    h1{ text-align: center;
+         background-color: white;}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+    div.contain{
+    background-color: white;
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    align-self: center;
+    margin-bottom: 50px;
+    }
+    head{display: flex;
+    align-items: center;
+justify-content: center;}
+   .bold{
+        display: flex;
+        flex-direction: row;
+       justify-content:space-between;
+       padding: 10px;
+    }
+    img{
+        width:100%;
+    }
+ .date{
+    color:grey
+ }
